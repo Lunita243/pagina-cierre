@@ -1,0 +1,181 @@
+.titulo{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer{
+    color: #fff;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#right {
+    width: 200px;
+    position:absolute;
+    top: 300px;
+    bottom: 130px;
+    right: 20px;
+    border: 0 ;
+    height: auto;
+    color: rgb(255, 255, 255);
+}
+.marcadores{
+    color: rgb(255, 255, 255);
+}
+h2{
+    color: #ebf0ec;
+    text-align: center;
+}
+body{
+background: url(imagenes/FondoP.png);
+background-repeat: repeat;
+margin: 0;
+z-index: 0;
+height: auto;
+width: 100%;
+}
+.enlaces{
+    list-style: none;  /* quitando biñetas */
+    padding: 0; /* eliminar espacios*/
+    width: 800px;     /*  nueva medido con porcentajes ancho máximo 800 pixeles */
+    max-width:px;  /*ancho máximo*/
+   margin:20px auto; /* centrar 20 arriba y abajo */
+   text-align: center;
+   color: #FFFFFF;
+   background: #fff;
+}
+.enlaces li a {  /* para ir a enlaces*/
+    color :#FFFFFF(15, 15, 15);
+    text-decoration: none;  /*quitamos en enlace línea que aparece en enlace*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:20px;  /* com son de tipo line */
+    display: block; /* cuando son enlaces se pone block  porque son de tipo en línea*/
+    
+}
+.enlaces li a:hover {
+    background: #735bfc;  /* abarca el 100%*/
+
+}
+.enlaces li{
+    display: inline-block;
+    text-align: center;
+}
+.menu{
+    list-style: none;  /* quitando biñetas */
+    padding: 0; /* eliminar espacios*/
+    background: #edf2f3; /* abarca el 100% */
+    width: 800px;     /*  nueva medido con porcentajes ancho máximo 800 pixeles */
+    max-width:px;  /*ancho máximo*/
+   margin:20px auto; /* centrar 20 arriba y abajo */
+   text-align: center;
+}
+.menu li a {  /* para ir a enlaces*/
+    color :rgb(15, 15, 15);
+    text-decoration: none;  /*quitamos en enlace línea que aparece en enlace*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:20px;  /* com son de tipo line */
+    display: block; /* cuando son enlaces se pone block  porque son de tipo en línea*/
+    
+}
+/* se accede a la paseudoclase hover con : */
+.menu li a:hover {
+    background: #735bfc;  /* abarca el 100%*/
+
+}
+
+/* queremos que los elemenot li no abarquen el |00%
+y queremos poner uno al lado del otro */
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+.texto{
+    color: blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    list-style: none;  /* quitando biñetas */
+    padding: 0; /* eliminar espacios*/
+    width: 800px;     /*  nueva medido con porcentajes ancho máximo 800 pixeles */
+    max-width:px;  /*ancho máximo*/
+   margin:20px auto; /* centrar 20 arriba y abajo */
+}
+.tablaC{
+    background: blue;
+    color: white;
+}
+.tablaC2{
+    
+    color: white;
+}
+.fondoTabla{
+   
+    color: rgb(245, 243, 243);
+}
+tr:hover{
+    background: rgb(17, 15, 112);
+}
+table, th, td{
+border: 2px solid rgb(253, 248, 248);
+}
+table{
+    margin: 50px 20px 50px 20px;
+    text-align: left;
+    border:2px solid #ebf0ec;
+}
+td, th{
+    padding: 10px 20px;
+}
+
+
+.form{
+    width:340px;
+    height:440px;
+    background:#e6e6e6;
+    border-radius:8px;
+    box-shadow:0 0 40px -10px #000;
+    margin:calc(50vh - 220px) auto;
+    padding:20px 30px;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+    position:relative
+}
+
+input{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    font-family:'Montserrat',sans-serif;
+    transition:all .3s;
+    border-bottom:2px solid #bebed2
+}
+input:focus{
+    border-bottom:2px solid #78788c
+}
+p:before{
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:14px;
+    color:#1d1c1c
+}
+button{
+    float:right;
+    padding:8px 12px;
+    margin:8px 0 0;
+    font-family:'Montserrat',sans-serif;
+    border:2px solid #78788c;
+    background:0;color:#5a5a6e;
+    cursor:pointer;
+    transition:all .3s
+}
+button:hover{
+    background:#78788c;
+    color:#fff
+}
